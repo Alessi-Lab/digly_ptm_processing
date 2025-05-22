@@ -1,6 +1,6 @@
 # diGly PTM Data Processing Script
 
-This document explains a Python script for processing proteomics data from MSFragger to extract post-translational modifications (PTMs), particularly GG (diglycine) modifications.
+This document explains a Python script for processing proteomics data from Proteome Discoverer 2.4 to extract post-translational modifications (PTMs), particularly GG (diglycine) modifications.
 
 ## Code Breakdown
 
