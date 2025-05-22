@@ -1,6 +1,6 @@
 # DIA-NN PTM Processing Script
 
-This document explains a Python script for processing post-translational modification (PTM) data from DIA-NN proteomics experiments, specifically focusing on UniMod:121 modifications.
+This document explains a Python script for processing post-translational modification (PTM) data from DIA-NN 1.8.1 proteomics experiments, specifically focusing on UniMod:121 modifications.
 
 ## Code Breakdown
 
