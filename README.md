@@ -101,7 +101,3 @@ cf.to_csv(r"C:\Users\Toan Phung\Downloads\HEK293_MG132_6H_urea_DDA_3.parsed.txt"
   - Generate sequence windows
   - Format data for CurtainPTM
 - Saves the processed data to a tab-delimited file
-
-## Summary
-
-This script processes MSFragger proteomics data to identify and extract GG (diglycine) modifications, converting them into a format suitable for visualization with CurtainPTM. It handles different ways that modifications might be annotated in the input file and standardizes them to ProForma notation while calculating the precise position of each modification site within the protein sequence.
