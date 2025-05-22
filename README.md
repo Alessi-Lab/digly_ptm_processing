@@ -79,8 +79,8 @@ for i,r in df.iterrows():
 - Filters for modifications containing "GG" (diglycine)
 - Creates a `Sequence` object from the peptide sequence
 - Handles two modification formats:
-  1. When position is directly provided (e.g., "GG[123]")
-  2. When amino acid is provided (e.g., "GG[K]")
+  1. When the position is directly provided for the modification within the peptide.
+  2. When only the residue is provided, not the position, the modification is put on the first amino acid of the same residue type that it can find.
 - Adds the modification to the sequence object
 - Converts the modified sequence to ProForma notation and stores it
 
@@ -99,5 +99,4 @@ cf.to_csv(r"C:\Users\Toan Phung\Downloads\HEK293_MG132_6H_urea_DDA_3.parsed.txt"
   - Extract site-specific information
   - Calculate positions in protein
   - Generate sequence windows
-  - Format data for CurtainPTM
 - Saves the processed data to a tab-delimited file
